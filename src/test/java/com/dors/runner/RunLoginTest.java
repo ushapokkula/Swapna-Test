@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         format = { "pretty", "html:target/cucumber" },
         glue = "test/java/steps",
-        features = "classpath:cucumber-features/create_entry.feature"
+        features = "classpath:cucumber-features/create_entry.feature",
+        tags = "@test"
 )
 public class RunLoginTest {
 }
