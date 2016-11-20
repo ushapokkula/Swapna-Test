@@ -1,0 +1,14 @@
+The Solution to the test has implemented using cucumber , junit page object model and selenium webdriver using java.
+The test has divided into three scenarios a) Create a single b)delete an entry and c)create multiple entries 
+For Multiple entry creation i have used cucumber table to populate the data into the fields
+The feature runs using InternetExplorer driver on IE browser, as there is a compatability issue in the application. 
+The application doesn't login in Firefox and Chrome
+Page Object Model is used  to re-use the page objects.It helps code readable, reusable and maintainable.
+
+
+Bugs:
+1. Application doesn't login in Chrom and Firefox browsers
+2. Phone number field also accepts alphabets
+3. Some times the login fails on IE browser also.
+
+
